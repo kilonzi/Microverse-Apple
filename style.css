@@ -8,7 +8,7 @@
 }
 
 .hero {
-    width: 70%;
+    width: 75%;
     height: 80vh;
     background: url(https://web.archive.org/web/20140301004302im_/http://images.apple.com/v/home/as/images/your_verse_hero.jpg) 50% 100% no-repeat;
 }
@@ -20,23 +20,38 @@ body {
 }
 
 .newProducts {
-    width: 70%;
+    width: 75%;
+    display: inline-block;
+    justify-content: center;
+    border: 1px;
 }
 
 .products {
-    float: left;
     width: 25%;
+    float: left;
     height: 20vh;
     background-color: blueviolet;
 }
 
 img {
     position: absolute;
-    height: 20vh;
-    width: auto;
+    width: 360px;
+    height: 200px;
+    border: 2px;
 }
 
 footer {
-    width: 70%;
+    width: 75%;
     background-color: brown;
+}
+
+.footerArea {
+    display: block;
+    justify-content: center;
+    border: 1px;
+}
+
+.footerContent {
+    text-align: left;
+    margin-left: 200px;
 }
