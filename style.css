@@ -1,8 +1,15 @@
-.main {
-    background-color: blanchedalmond;
-    width: 100%;
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: transparent;
+    min-width: 1024px;
     height: 100%;
-    position: relative;
+    min-height: 830px;
+    max-height: 1472px;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    display: block;
+    justify-content: center;
 }
 
 .hero {
@@ -14,38 +21,36 @@
     display: block;
 }
 
-body {
-    font: 12px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
-    background-color: transparent;
-    color: #333;
-}
-
 .newProducts {
     width: 100%;
+    height: auto;
     display: flex;
+    min-width: 320px;
     /* display: block; */
 }
 
 .products {
     width: 25%;
     float: left;
-    flex-grow: 1;
+    padding: 1px;
 }
 
 img {
     position: absolute;
+    min-width: 25%;
     width: auto;
     height: 200px;
     border: 2px;
     display: flex;
     flex-grow: 1;
+    padding: 0.5PX;
 }
 
 footer {
     width: 100%;
     background-color: rgb(255, 255, 255);
-    position: absolute;
-    bottom: 0;
+    position: sticky;
+    bottom: 0px;
 }
 
 .footerArea {
@@ -55,10 +60,81 @@ footer {
     height: 10vh;
     margin-top: 100px;
     position: absolute;
-    bottom: 0px;
 }
 
 .footerContent {
     text-align: left;
     margin-left: 200px;
+}
+
+.main_nav {
+    background-color: #7e7e7e;
+    color: white;
+    display: table;
+    float: left;
+    width: 845px;
+    table-layout: fixed;
+}
+
+.main_nav ul {
+    display: inline-block;
+    justify-content: space-evenly;
+}
+
+.main_nav li {
+    display: table-cell;
+    background-color: transparent;
+    color: white;
+    list-style-type: none;
+    margin: 0px 0px;
+    width: 90px;
+    text-align: center;
+}
+
+.main_nav input {
+    border-radius: 12px;
+    background: transparent;
+    height: 19px;
+    background-image: none;
+    box-sizing: border-box;
+    display: inline;
+}
+
+.main_nav .fa-search {
+    height: 12px;
+    width: 12px;
+    display: inline;
+    position: relative;
+    right: 100px;
+}
+
+.main_nav .fa-apple {
+    height: 25px;
+    width: 25px;
+}
+
+.main_nav .search-store {
+    width: 80px;
+    display: inline;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+    transition-duration: 1000ms;
+}
+
+.main_nav .search-store:active {
+    width: 106px;
+    display: inline;
+}
+
+.main_nav a {
+    background-color: transparent;
+    text-align: center;
+    border-right: 1px solid #fff;
+    height: 36px;
+    padding: 10px;
+}
+
+.main_nav a:active,
+.main_nav a:hover {
+    background-color: black;
 }
