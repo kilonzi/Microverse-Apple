@@ -72,6 +72,7 @@ footer {
     color: white;
     display: block;
     float: left;
+    width: auto;
     position: relative;
     top: 50px;
     height: 36px;
@@ -103,6 +104,7 @@ footer {
     align-items: center;
     justify-content: center;
     text-align: center;
+    background-image: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.svg);
 }
 
 .main_nav a {
@@ -113,7 +115,8 @@ footer {
     padding: 10px 0px;
     width: 100%;
     color: white;
-    text-decoration: none
+    text-decoration: none;
+    border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D) 0 2 0 1;
 }
 
 .main_nav input {
@@ -131,6 +134,7 @@ footer {
     display: inline;
     position: relative;
     right: -20px;
+    color: black;
 }
 
 .main_nav .fa-apple {
@@ -141,14 +145,26 @@ footer {
 .main_nav .search-store {
     width: 80px;
     display: inline;
-    transition-timing-function: ease-in-out;
-    transition-property: all;
-    transition-duration: 1000ms;
+    box-sizing: content-box;
+    padding: 0px 20px;
 }
 
-.main_nav .search-store:active {
-    width: 106px;
+.main_nav input[type="text"] {
+    width: 80px;
     display: inline;
+    transition-timing-function: ease-in;
+    transition-duration: 10ms;
+    box-sizing: content-box;
+    padding: 0px 20px;
+    direction: ltr;
+}
+
+.main_nav input[type="text"]:active,
+.main_nav input[type="text"]:focus {
+    display: inline;
+    width: 106px;
+    padding-left: 40px;
+    background-color: #fff;
 }
 
 .main_nav li:active,
