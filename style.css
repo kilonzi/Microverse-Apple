@@ -12,37 +12,26 @@ body {
     justify-content: center;
 }
 
-.hero {
-    width: 100%;
-    height: 70vh;
-    background: url(/images/your_verse_hero.jpg) 50% 100% no-repeat;
-    position: relative;
-    top: 0px;
-    display: block;
-}
-
-.newProducts {
+.new-products {
     width: 100%;
     height: auto;
-    display: flex;
+    display: grid;
     min-width: 320px;
-    /* display: block; */
+    grid-template-columns: repeat(4, 1fr)
 }
 
 .products {
-    width: 25%;
-    float: left;
+    /* width: 25%; */
+    display: inline-block;
     padding: 1px;
 }
 
-img {
+.new-products img {
     position: absolute;
     min-width: 25%;
     width: auto;
     height: 200px;
     border: 2px;
-    display: flex;
-    flex-grow: 1;
     padding: 0.5PX;
 }
 
@@ -53,7 +42,7 @@ footer {
     bottom: 0px;
 }
 
-.footerArea {
+.footer-area {
     display: block;
     justify-content: center;
     border: 1px;
@@ -62,13 +51,13 @@ footer {
     position: absolute;
 }
 
-.footerContent {
+.footer-content {
     text-align: left;
     margin-left: 200px;
 }
 
 .main_nav {
-    background-color: #7e7e7e;
+    /* background-color: #7e7e7e; */
     color: white;
     display: block;
     float: left;
@@ -79,6 +68,7 @@ footer {
     left: 10%;
     z-index: 9998;
     border-radius: 4px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, .2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, .2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, .2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
 }
 
 .main_nav ul {
@@ -116,7 +106,7 @@ footer {
     width: 100%;
     color: white;
     text-decoration: none;
-    border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D) 0 2 0 1;
+    -webkit-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D) 0 2 0 1;
 }
 
 .main_nav input {
@@ -169,5 +159,55 @@ footer {
 
 .main_nav li:active,
 .main_nav li:hover {
-    background-color: black;
+    background-color: #333;
+}
+
+form {
+    width: 100px;
+    display: inline;
+    background: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalsearch_field.png) 0 0 no-repeat;
+}
+
+.hero {
+    width: 100%;
+    height: 80vh;
+    background: url(/images/your_verse_hero.jpg) 50% 100% no-repeat;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.title {
+    padding-top: 100px;
+    display: block;
+    /* background: url(/images/your_verse_title_small_2x.png) 0 112px;
+    transform: scale(0.8) */
+}
+
+.sub-title {
+    padding-top: 20px;
+    display: block;
+}
+
+.watch-video {
+    width: 980px;
+    display: block;
+    height: 35px;
+    padding-left: 20px;
+    padding-top: 20px;
+    background: url(/images/cta_your_verse_46pt.png) 0 0px;
+    transform: scale(0.6);
+}
+
+.watch-video:hover {
+    width: 980px;
+    height: 35px;
+    display: block;
+    padding-left: 20px;
+    padding-top: 20px;
+    background: url(/images/cta_your_verse_46pt.png)0px 60px;
+    transform: scale(0.6);
 }
