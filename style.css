@@ -3,7 +3,7 @@ body {
     font-size: 12px;
     background-color: transparent;
     min-width: 1024px;
-    height: 100%;
+    height: 100vh;
     min-height: 830px;
     max-height: 1472px;
     margin-top: 0 !important;
@@ -14,7 +14,7 @@ body {
 
 .new-products {
     width: 100%;
-    height: auto;
+    height: 20vh;
     display: grid;
     min-width: 320px;
     grid-template-columns: repeat(4, 1fr)
@@ -35,25 +35,19 @@ body {
     padding: 0.5PX;
 }
 
-footer {
-    width: 100%;
-    background-color: rgb(255, 255, 255);
-    position: sticky;
-    bottom: 0px;
-}
-
-.footer-area {
-    display: block;
-    justify-content: center;
-    border: 1px;
-    height: 10vh;
-    margin-top: 100px;
-    position: absolute;
-}
-
 .footer-content {
-    text-align: left;
-    margin-left: 200px;
+    text-align: center;
+    width: 100%;
+    height: 10vh;
+    position: absolute;
+    background: white;
+    bottom: 0;
+    padding-bottom: 0;
+}
+
+.footer-content a {
+    text-decoration: none;
+    color: #348DCE;
 }
 
 .main_nav {
@@ -170,7 +164,7 @@ form {
 
 .hero {
     width: 100%;
-    height: 80vh;
+    height: 70vh;
     background: url(/images/your_verse_hero.jpg) 50% 100% no-repeat;
     display: block;
     text-align: center;
