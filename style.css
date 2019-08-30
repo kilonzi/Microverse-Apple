@@ -19,7 +19,7 @@ body {
     width: 100%;
 }
 
-.new-products>.products {
+.new-products > .products {
     display: inline-block;
     width: 24.8%;
 }
@@ -47,13 +47,12 @@ body {
     color: #348dce;
 }
 
-.footer-content>.spacer {
+.footer-content > .spacer {
     line-height: 12px;
     padding-left: 10px;
 }
 
 .main_nav {
-    display: inline-block;
     color: white;
     display: block;
     position: relative;
