@@ -5,6 +5,6 @@ files:
   ignore: 
     - 'css-reset.css'
 review:
-  fail_on_comments: false
+  fail_on_comments: true
 fixers:
   enable: true       
