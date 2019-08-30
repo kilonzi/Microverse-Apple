@@ -1,216 +1,206 @@
 body {
-  font-family: 'Roboto', sans-serif;
-  font-size: 12px;
-  background-color: transparent;
-  min-width: 1024px;
-  height: 100vh;
-  min-height: 830px;
-  max-height: 1472px;
-  margin-top: 0 !important;
-  padding-top: 0 !important;
-  display: block;
-  justify-content: center;
-  text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: transparent;
+    min-width: 1024px;
+    min-height: 830px;
+    max-height: 1472px;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    display: block;
+    justify-content: center;
+    text-align: center;
 }
 
 .new-products {
-  width: 100%;
-  min-height: 25vh;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  justify-content: left;
-  float: left;
+    display: block;
+    position: relative;
+    text-align: center;
+    width: 100%;
 }
 
-.new-products > .products {
-  display: inline-block;
-  padding: 2px;
-  float: left;
+.new-products>.products {
+    display: inline-block;
+    width: 24.8%;
 }
 
 .products img {
-  position: relative;
-  min-width: 25%;
-  left: 0;
-  width: 100%;
-  height: 210px;
-  border: 2px;
-  padding: 0.5px;
+    position: relative;
+    min-width: 25%;
+    left: 0;
+    width: 100%;
+    height: 210px;
+    border: 2px;
+    padding: 0.5px;
 }
 
 .footer-content {
-  text-align: center;
-  width: 100%;
-  height: 10vh;
-  position: absolute;
-  background: white;
-  bottom: 0;
-  padding-bottom: 0;
+    text-align: center;
+    width: 100%;
+    display: block;
+    position: absolute;
+    background: white;
 }
 
 .footer-content a {
-  text-decoration: none;
-  color: #348dce;
+    text-decoration: none;
+    color: #348dce;
 }
 
-.footer-content > .spacer {
-  line-height: 12px;
-  padding-left: 10px;
+.footer-content>.spacer {
+    line-height: 12px;
+    padding-left: 10px;
 }
 
 .main_nav {
-  /* background-color: #7e7e7e; */
-  color: white;
-  display: block;
-  float: left;
-  width: auto;
-  position: relative;
-  top: 50px;
-  height: 36px;
-  left: 10%;
-  z-index: 9998;
-  border-radius: 4px;
-  background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
+    display: inline-block;
+    color: white;
+    display: block;
+    position: absolute;
+    margin: auto;
+    top: 50px;
+    height: 36px;
+    z-index: 9998;
+    border-radius: 4px;
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(0, 0, 0, 0.2)), color-stop(0.05, rgba(0, 0, 0, 0)), color-stop(0.97, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.45))), -webkit-gradient(linear, 0 0, 100% 0, from(rgba(0, 0, 0, 0.2)), color-stop(0.002, rgba(0, 0, 0, 0)), color-stop(0.998, rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0.2))), url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA9QAAAAkCAMAAABfcIIyAAAAGXRFW…px%2BeQqLpPJDae9P5%2FmrVz491%2FWekBlKy7PXVfn9rb9xXsMD2wdOcAAAAAElFTkSuQmCC) no-repeat 50% 50%, -webkit-gradient(linear, 0 100%, 0 0, from(#666), color-stop(0.5, #5e5e5e), color-stop(0.51, #707070), to(#808080));
 }
 
 .main_nav ul {
-  display: inline-block;
-  color: white;
-  list-style: none;
-  height: 36px;
-  padding: 0 !important;
-  margin: 0 !important;
-  text-decoration: #fff;
+    display: inline-block;
+    color: white;
+    list-style: none;
+    height: 36px;
+    padding: 0 !important;
+    margin: 0 !important;
+    text-decoration: #fff;
 }
 
 .main_nav li {
-  display: inline-block;
-  background-color: transparent;
-  color: white;
-  list-style-type: none;
-  padding: 0 !important;
-  margin: 0 !important;
-  width: 106px;
-  height: 36px;
-  border-right: 1px solid #fff;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-image: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.svg);
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    list-style-type: none;
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 106px;
+    height: 36px;
+    border-right: 1px solid #fff;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.svg);
 }
 
 .main_nav a {
-  display: block;
-  background-color: transparent;
-  text-align: center;
-  height: 36px;
-  padding: 10px 0;
-  width: 100%;
-  color: white;
-  text-decoration: none;
-  -webkit-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D) 0 2 0 1;
+    display: block;
+    background-color: transparent;
+    text-align: center;
+    height: 36px;
+    padding: 10px 0;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+    -webkit-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D) 0 2 0 1;
 }
 
 .main_nav input {
-  border-radius: 12px;
-  background: transparent;
-  height: 19px;
-  background-image: none;
-  box-sizing: border-box;
-  display: inline;
+    border-radius: 12px;
+    background: transparent;
+    height: 19px;
+    background-image: none;
+    box-sizing: border-box;
+    display: inline;
 }
 
 .main_nav .fa-search {
-  height: 12px;
-  width: 12px;
-  display: inline;
-  position: relative;
-  right: -20px;
-  color: black;
+    height: 12px;
+    width: 12px;
+    display: inline;
+    position: relative;
+    right: -20px;
+    color: black;
 }
 
 .main_nav .fa-apple {
-  height: 25px;
-  width: 25px;
+    height: 25px;
+    width: 25px;
 }
 
 .main_nav .search-store {
-  width: 80px;
-  display: inline;
-  box-sizing: content-box;
-  padding: 0 20px;
+    width: 80px;
+    display: inline;
+    box-sizing: content-box;
+    padding: 0 20px;
 }
 
 .main_nav input[type="text"] {
-  width: 80px;
-  display: inline;
-  transition-timing-function: ease-in;
-  transition-duration: 10ms;
-  box-sizing: content-box;
-  padding: 0 20px;
-  direction: ltr;
+    width: 80px;
+    display: inline;
+    transition-timing-function: ease-in;
+    transition-duration: 10ms;
+    box-sizing: content-box;
+    padding: 0 20px;
+    direction: ltr;
 }
 
 .main_nav input[type="text"]:active,
 .main_nav input[type="text"]:focus {
-  display: inline;
-  width: 106px;
-  padding-left: 40px;
-  background-color: #fff;
+    display: inline;
+    width: 106px;
+    padding-left: 40px;
+    background-color: #fff;
 }
 
 .main_nav li:active,
 .main_nav li:hover {
-  background-color: #333;
+    background-color: #333;
 }
 
 form {
-  width: 100px;
-  display: inline;
-  background: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalsearch_field.png) 0 0 no-repeat;
+    width: 100px;
+    display: inline;
+    background: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalsearch_field.png) 0 0 no-repeat;
 }
 
 .hero {
-  width: 100%;
-  height: 65vh;
-  background: url(/images/your_verse_hero.jpg) 50% 100% no-repeat;
-  display: block;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  align-content: center;
-  justify-items: center;
+    width: 100%;
+    background: url(images/your_verse_hero.jpg) 50% 100% no-repeat;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    justify-items: center;
 }
 
 .title {
-  padding-top: 100px;
-  display: block;
+    padding-top: 100px;
+    display: block;
 }
 
 .sub-title {
-  padding-top: 20px;
-  display: block;
+    padding-top: 20px;
+    display: block;
 }
 
 .watch-video {
-  width: 980px;
-  display: block;
-  height: 35px;
-  padding-top: 20px;
-  background: url(/images/cta_your_verse_46pt.png) 0 0;
-  transform: scale(0.6);
+    width: 980px;
+    display: block;
+    height: 35px;
+    padding-top: 20px;
+    background: url(images/cta_your_verse_46pt.png) 0 0;
+    transform: scale(0.6);
 }
 
 .watch-video:hover {
-  width: 980px;
-  height: 35px;
-  display: block;
-  padding-top: 20px;
-  background: url(/images/cta_your_verse_46pt.png) 0 60px;
-  transform: scale(0.6);
+    width: 980px;
+    height: 35px;
+    display: block;
+    padding-top: 20px;
+    background: url(images/cta_your_verse_46pt.png) 0 60px;
+    transform: scale(0.6);
 }
 
 .content-flow {
-  display: inline-block;
+    display: inline-block;
 }
-
