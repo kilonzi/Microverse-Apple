@@ -10,27 +10,30 @@ body {
     padding-top: 0 !important;
     display: block;
     justify-content: center;
+    text-align: center;
 }
 
 .new-products {
     width: 100%;
-    height: 20vh;
+    min-height: 25vh;
     display: grid;
-    min-width: 320px;
-    grid-template-columns: repeat(4, 1fr)
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: left;
+    float: left;
 }
 
-.products {
-    /* width: 25%; */
+.new-products>.products {
     display: inline-block;
-    padding: 1px;
+    padding: 2px;
+    float: left;
 }
 
-.new-products img {
-    position: absolute;
+.products img {
+    position: relative;
     min-width: 25%;
-    width: auto;
-    height: 200px;
+    left: 0px;
+    width: 100%;
+    height: 210px;
     border: 2px;
     padding: 0.5PX;
 }
@@ -48,6 +51,11 @@ body {
 .footer-content a {
     text-decoration: none;
     color: #348DCE;
+}
+
+.footer-content>.spacer {
+    line-height: 12px;
+    padding-left: 10px;
 }
 
 .main_nav {
@@ -164,7 +172,7 @@ form {
 
 .hero {
     width: 100%;
-    height: 70vh;
+    height: 65vh;
     background: url(/images/your_verse_hero.jpg) 50% 100% no-repeat;
     display: block;
     text-align: center;
@@ -190,7 +198,6 @@ form {
     width: 980px;
     display: block;
     height: 35px;
-    padding-left: 20px;
     padding-top: 20px;
     background: url(/images/cta_your_verse_46pt.png) 0 0px;
     transform: scale(0.6);
@@ -200,8 +207,11 @@ form {
     width: 980px;
     height: 35px;
     display: block;
-    padding-left: 20px;
     padding-top: 20px;
     background: url(/images/cta_your_verse_46pt.png)0px 60px;
     transform: scale(0.6);
+}
+
+.content-flow {
+    display: inline-block;
 }
