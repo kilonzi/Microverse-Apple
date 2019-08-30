@@ -31,7 +31,7 @@ body {
 .products img {
   position: relative;
   min-width: 25%;
-  left: 0px;
+  left: 0;
   width: 100%;
   height: 210px;
   border: 2px;
@@ -50,7 +50,7 @@ body {
 
 .footer-content a {
   text-decoration: none;
-  color: #348DCE;
+  color: #348dce;
 }
 
 .footer-content>.spacer {
@@ -78,8 +78,8 @@ body {
   color: white;
   list-style: none;
   height: 36px;
-  padding: 0px !important;
-  margin: 0px !important;
+  padding: 0 !important;
+  margin: 0 !important;
   text-decoration: #fff;
 }
 
@@ -88,8 +88,8 @@ body {
   background-color: transparent;
   color: white;
   list-style-type: none;
-  padding: 0px !important;
-  margin: 0px !important;
+  padding: 0 !important;
+  margin: 0 !important;
   width: 106px;
   height: 36px;
   border-right: 1px solid #fff;
@@ -104,7 +104,7 @@ body {
   background-color: transparent;
   text-align: center;
   height: 36px;
-  padding: 10px 0px;
+  padding: 10px 0;
   width: 100%;
   color: white;
   text-decoration: none;
@@ -138,7 +138,7 @@ body {
   width: 80px;
   display: inline;
   box-sizing: content-box;
-  padding: 0px 20px;
+  padding: 0 20px;
 }
 
 .main_nav input[type="text"] {
@@ -147,7 +147,7 @@ body {
   transition-timing-function: ease-in;
   transition-duration: 10ms;
   box-sizing: content-box;
-  padding: 0px 20px;
+  padding: 0 20px;
   direction: ltr;
 }
 
@@ -185,8 +185,6 @@ form {
 .title {
   padding-top: 100px;
   display: block;
-  /* background: url(/images/your_verse_title_small_2x.png) 0 112px;
-  transform: scale(0.8) */
 }
 
 .sub-title {
@@ -199,7 +197,7 @@ form {
   display: block;
   height: 35px;
   padding-top: 20px;
-  background: url(/images/cta_your_verse_46pt.png) 0 0px;
+  background: url(/images/cta_your_verse_46pt.png) 0 0;
   transform: scale(0.6);
 }
 
@@ -208,10 +206,12 @@ form {
   height: 35px;
   display: block;
   padding-top: 20px;
-  background: url(/images/cta_your_verse_46pt.png)0px 60px;
+  background: url(/images/cta_your_verse_46pt.png) 0 60px;
   transform: scale(0.6);
 }
 
 .content-flow {
   display: inline-block;
 }
+
+
