@@ -19,7 +19,7 @@ body {
     width: 100%;
 }
 
-.new-products > .products {
+.new-products>.products {
     display: inline-block;
     width: 24.8%;
 }
@@ -35,6 +35,7 @@ body {
 }
 
 .footer-content {
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     width: 100%;
     display: block;
@@ -47,7 +48,7 @@ body {
     color: #348dce;
 }
 
-.footer-content > .spacer {
+.footer-content>.spacer {
     line-height: 12px;
     padding-left: 10px;
 }
@@ -207,4 +208,16 @@ form {
 
 #header {
     padding-left: 20%;
+}
+
+.footer-line {
+    text-align: left;
+    display: block;
+    width: 70%;
+    position: relative;
+    left: 15%;
+}
+
+pre {
+    font-family: 'Roboto', sans-serif;
 }
