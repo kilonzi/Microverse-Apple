@@ -54,7 +54,7 @@ body {
     color: white;
     display: block;
     position: relative;
-    max-width:fit-content;
+    max-width: fit-content;
     margin: auto;
     top: 50px;
     height: 36px;
@@ -101,8 +101,6 @@ body {
     -webkit-border-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAABCAQAAABTNcdGAAAAEUlEQVQIHWP4r8bA8F%2BKwQEADZUCf37PGokAAAAASUVORK5CYII%3D) 0 2 0 1;
 }
 
-
-
 .main_nav .fa-search {
     height: 12px;
     width: 12px;
@@ -141,7 +139,7 @@ body {
 }
 
 .main_nav input[type="text"]:active,
-.main_nav input[type="text"]:focus{
+.main_nav input[type="text"]:focus {
     display: inline;
     width: 106px;
     padding-left: 40px;
