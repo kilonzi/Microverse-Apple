@@ -54,8 +54,7 @@ body {
     color: white;
     display: block;
     position: relative;
-    max-width: 80%;
-   width:fill-content;
+    max-width:fit-content;
     margin: auto;
     top: 50px;
     height: 36px;
@@ -65,12 +64,12 @@ body {
 }
 
 .main_nav ul {
-    display: inline-block;
+    display: inline;
     color: white;
     list-style: none;
     height: 36px;
-    padding: 0 !important;
-    margin: 0 !important;
+    padding: 0;
+    margin: 0;
     text-decoration: #fff;
 }
 
@@ -107,7 +106,6 @@ body {
 .main_nav .fa-search {
     height: 12px;
     width: 12px;
-    display: inline;
     position: relative;
     right: -20px;
     color: black;
@@ -116,13 +114,11 @@ body {
 .main_nav .fa-apple {
     height: 25px;
     width: 25px;
+    display: inline-block;
 }
 
 .main_nav .search-store {
-    width:90px;
     display: inline;
-    box-sizing: content-box;
-    padding: 0 20px;
 }
 
 .main_nav input {
@@ -145,7 +141,7 @@ body {
 }
 
 .main_nav input[type="text"]:active,
-.main_nav input[type="text"]:focus {
+.main_nav input[type="text"]:focus{
     display: inline;
     width: 106px;
     padding-left: 40px;
