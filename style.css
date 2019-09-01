@@ -79,8 +79,6 @@ body {
     width: 106px;
     height: 36px;
     border-right: 1px solid rgb(24, 24, 24);
-    align-items: center;
-    justify-content: center;
     text-align: center;
     background-image: url(/web/20140301004259im_/http://images.apple.com/global/nav/images/globalnav_text.svg);
 }
