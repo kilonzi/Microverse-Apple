@@ -5,10 +5,7 @@ body {
     min-width: 1024px;
     min-height: 830px;
     max-height: 1472px;
-    margin-top: 0 !important;
-    padding-top: 0 !important;
     display: block;
-    justify-content: center;
     text-align: center;
     max-width: fit-content;
 }
@@ -53,10 +50,11 @@ body {
 .main_nav {
     color: white;
     display: block;
-    position: relative;
+    position: absolute;
     max-width: fit-content;
     margin: auto;
     top: 50px;
+    left: 15%;
     height: 36px;
     z-index: 9998;
     border-radius: 4px;
@@ -78,8 +76,6 @@ body {
     background-color: transparent;
     color: white;
     list-style-type: none;
-    padding: 0 !important;
-    margin: 0 !important;
     width: 106px;
     height: 36px;
     border-right: 1px solid rgb(24, 24, 24);
@@ -162,9 +158,6 @@ form {
     background: url(images/your_verse_hero.jpg) 50% 100% no-repeat;
     display: block;
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
     background-size: cover;
 }
 
